@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BEE2CC81E5550AC009077FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2CC71E5550AC009077FB /* main.m */; };
+		1BEE2CCB1E5550AC009077FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2CCA1E5550AC009077FB /* AppDelegate.m */; };
+		1BEE2CD31E5550AC009077FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE2CD21E5550AC009077FB /* Assets.xcassets */; };
+		1BEE2CD61E5550AC009077FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE2CD41E5550AC009077FB /* LaunchScreen.storyboard */; };
+		1BEE2CE11E5550AC009077FB /* SLAddressSelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2CE01E5550AC009077FB /* SLAddressSelectorTests.m */; };
+		1BEE2CEC1E5550AC009077FB /* SLAddressSelectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2CEB1E5550AC009077FB /* SLAddressSelectorUITests.m */; };
+		1BEE2CFD1E55515B009077FB /* SLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2CFB1E55515B009077FB /* SLMainViewController.m */; };
+		1BEE2CFE1E55515B009077FB /* SLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE2CFC1E55515B009077FB /* SLMainViewController.xib */; };
+		1BEE2D121E55527F009077FB /* CustomModelTansition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D021E55527F009077FB /* CustomModelTansition.m */; };
+		1BEE2D131E55527F009077FB /* SLAddressCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D051E55527F009077FB /* SLAddressCollectionViewCell.m */; };
+		1BEE2D141E55527F009077FB /* SLAddressCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE2D061E55527F009077FB /* SLAddressCollectionViewCell.xib */; };
+		1BEE2D151E55527F009077FB /* SLAddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D081E55527F009077FB /* SLAddressTableViewCell.m */; };
+		1BEE2D161E55527F009077FB /* SLAddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE2D091E55527F009077FB /* SLAddressTableViewCell.xib */; };
+		1BEE2D171E55527F009077FB /* SLSliderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D0B1E55527F009077FB /* SLSliderBar.m */; };
+		1BEE2D181E55527F009077FB /* SLSliderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D0D1E55527F009077FB /* SLSliderItem.m */; };
+		1BEE2D191E55527F009077FB /* SLSelectAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D101E55527F009077FB /* SLSelectAddressViewController.m */; };
+		1BEE2D1A1E55527F009077FB /* SLSelectAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE2D111E55527F009077FB /* SLSelectAddressViewController.xib */; };
+		1BEE2D1D1E5552C4009077FB /* SLStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D1C1E5552C4009077FB /* SLStore.m */; };
+		1BEE2D371E5553C6009077FB /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D211E5553C5009077FB /* MJDictionaryCache.m */; };
+		1BEE2D381E5553C6009077FB /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D241E5553C5009077FB /* MJExtensionConst.m */; };
+		1BEE2D391E5553C6009077FB /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D261E5553C5009077FB /* MJFoundation.m */; };
+		1BEE2D3A1E5553C6009077FB /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D281E5553C5009077FB /* MJProperty.m */; };
+		1BEE2D3B1E5553C6009077FB /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D2A1E5553C5009077FB /* MJPropertyKey.m */; };
+		1BEE2D3C1E5553C6009077FB /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D2C1E5553C5009077FB /* MJPropertyType.m */; };
+		1BEE2D3D1E5553C6009077FB /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D2E1E5553C5009077FB /* NSObject+MJClass.m */; };
+		1BEE2D3E1E5553C6009077FB /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D301E5553C5009077FB /* NSObject+MJCoding.m */; };
+		1BEE2D3F1E5553C6009077FB /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D321E5553C5009077FB /* NSObject+MJKeyValue.m */; };
+		1BEE2D401E5553C6009077FB /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D341E5553C6009077FB /* NSObject+MJProperty.m */; };
+		1BEE2D411E5553C6009077FB /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D361E5553C6009077FB /* NSString+MJExtension.m */; };
+		1BEE2D451E555456009077FB /* SLCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D441E555456009077FB /* SLCityModel.m */; };
+		1BEE2D4A1E555679009077FB /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE2D491E555679009077FB /* NSString+Helper.m */; };
+		1BEE2D4C1E556FD2009077FB /* area.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE2D4B1E556FD2009077FB /* area.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BEE2CDD1E5550AC009077FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BEE2CBB1E5550AC009077FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BEE2CC21E5550AC009077FB;
+			remoteInfo = SLAddressSelector;
+		};
+		1BEE2CE81E5550AC009077FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BEE2CBB1E5550AC009077FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BEE2CC21E5550AC009077FB;
+			remoteInfo = SLAddressSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BEE2CC31E5550AC009077FB /* SLAddressSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLAddressSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEE2CC71E5550AC009077FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BEE2CC91E5550AC009077FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BEE2CCA1E5550AC009077FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BEE2CD21E5550AC009077FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BEE2CD51E5550AC009077FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BEE2CD71E5550AC009077FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEE2CDC1E5550AC009077FB /* SLAddressSelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLAddressSelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEE2CE01E5550AC009077FB /* SLAddressSelectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAddressSelectorTests.m; sourceTree = "<group>"; };
+		1BEE2CE21E5550AC009077FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEE2CE71E5550AC009077FB /* SLAddressSelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLAddressSelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEE2CEB1E5550AC009077FB /* SLAddressSelectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAddressSelectorUITests.m; sourceTree = "<group>"; };
+		1BEE2CED1E5550AC009077FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEE2CF91E5550FA009077FB /* SLHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHeader.pch; sourceTree = "<group>"; };
+		1BEE2CFA1E55515B009077FB /* SLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMainViewController.h; sourceTree = "<group>"; };
+		1BEE2CFB1E55515B009077FB /* SLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMainViewController.m; sourceTree = "<group>"; };
+		1BEE2CFC1E55515B009077FB /* SLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMainViewController.xib; sourceTree = "<group>"; };
+		1BEE2D011E55527F009077FB /* CustomModelTansition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomModelTansition.h; sourceTree = "<group>"; };
+		1BEE2D021E55527F009077FB /* CustomModelTansition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomModelTansition.m; sourceTree = "<group>"; };
+		1BEE2D041E55527F009077FB /* SLAddressCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAddressCollectionViewCell.h; sourceTree = "<group>"; };
+		1BEE2D051E55527F009077FB /* SLAddressCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAddressCollectionViewCell.m; sourceTree = "<group>"; };
+		1BEE2D061E55527F009077FB /* SLAddressCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLAddressCollectionViewCell.xib; sourceTree = "<group>"; };
+		1BEE2D071E55527F009077FB /* SLAddressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAddressTableViewCell.h; sourceTree = "<group>"; };
+		1BEE2D081E55527F009077FB /* SLAddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAddressTableViewCell.m; sourceTree = "<group>"; };
+		1BEE2D091E55527F009077FB /* SLAddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLAddressTableViewCell.xib; sourceTree = "<group>"; };
+		1BEE2D0A1E55527F009077FB /* SLSliderBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSliderBar.h; sourceTree = "<group>"; };
+		1BEE2D0B1E55527F009077FB /* SLSliderBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSliderBar.m; sourceTree = "<group>"; };
+		1BEE2D0C1E55527F009077FB /* SLSliderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSliderItem.h; sourceTree = "<group>"; };
+		1BEE2D0D1E55527F009077FB /* SLSliderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSliderItem.m; sourceTree = "<group>"; };
+		1BEE2D0F1E55527F009077FB /* SLSelectAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSelectAddressViewController.h; sourceTree = "<group>"; };
+		1BEE2D101E55527F009077FB /* SLSelectAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSelectAddressViewController.m; sourceTree = "<group>"; };
+		1BEE2D111E55527F009077FB /* SLSelectAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLSelectAddressViewController.xib; sourceTree = "<group>"; };
+		1BEE2D1B1E5552C4009077FB /* SLStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLStore.h; sourceTree = "<group>"; };
+		1BEE2D1C1E5552C4009077FB /* SLStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLStore.m; sourceTree = "<group>"; };
+		1BEE2D201E5553C5009077FB /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDictionaryCache.h; sourceTree = "<group>"; };
+		1BEE2D211E5553C5009077FB /* MJDictionaryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDictionaryCache.m; sourceTree = "<group>"; };
+		1BEE2D221E5553C5009077FB /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		1BEE2D231E5553C5009077FB /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		1BEE2D241E5553C5009077FB /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		1BEE2D251E5553C5009077FB /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		1BEE2D261E5553C5009077FB /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		1BEE2D271E5553C5009077FB /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		1BEE2D281E5553C5009077FB /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		1BEE2D291E5553C5009077FB /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		1BEE2D2A1E5553C5009077FB /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		1BEE2D2B1E5553C5009077FB /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		1BEE2D2C1E5553C5009077FB /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		1BEE2D2D1E5553C5009077FB /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		1BEE2D2E1E5553C5009077FB /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		1BEE2D2F1E5553C5009077FB /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		1BEE2D301E5553C5009077FB /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		1BEE2D311E5553C5009077FB /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		1BEE2D321E5553C5009077FB /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		1BEE2D331E5553C5009077FB /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		1BEE2D341E5553C6009077FB /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		1BEE2D351E5553C6009077FB /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		1BEE2D361E5553C6009077FB /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		1BEE2D431E555456009077FB /* SLCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCityModel.h; sourceTree = "<group>"; };
+		1BEE2D441E555456009077FB /* SLCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCityModel.m; sourceTree = "<group>"; };
+		1BEE2D461E5555C4009077FB /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		1BEE2D481E555679009077FB /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		1BEE2D491E555679009077FB /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		1BEE2D4B1E556FD2009077FB /* area.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = area.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BEE2CC01E5550AC009077FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEE2CD91E5550AC009077FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEE2CE41E5550AC009077FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BEE2CBA1E5550AC009077FB = {
+			isa = PBXGroup;
+			children = (
+				1BEE2CC51E5550AC009077FB /* SLAddressSelector */,
+				1BEE2CDF1E5550AC009077FB /* SLAddressSelectorTests */,
+				1BEE2CEA1E5550AC009077FB /* SLAddressSelectorUITests */,
+				1BEE2CC41E5550AC009077FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BEE2CC41E5550AC009077FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE2CC31E5550AC009077FB /* SLAddressSelector.app */,
+				1BEE2CDC1E5550AC009077FB /* SLAddressSelectorTests.xctest */,
+				1BEE2CE71E5550AC009077FB /* SLAddressSelectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BEE2CC51E5550AC009077FB /* SLAddressSelector */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE2D1E1E5553C5009077FB /* Other */,
+				1BEE2CFF1E55527F009077FB /* SLAdress */,
+				1BEE2CC91E5550AC009077FB /* AppDelegate.h */,
+				1BEE2CCA1E5550AC009077FB /* AppDelegate.m */,
+				1BEE2CFA1E55515B009077FB /* SLMainViewController.h */,
+				1BEE2CFB1E55515B009077FB /* SLMainViewController.m */,
+				1BEE2CFC1E55515B009077FB /* SLMainViewController.xib */,
+				1BEE2CF91E5550FA009077FB /* SLHeader.pch */,
+				1BEE2D461E5555C4009077FB /* Header.h */,
+				1BEE2D1B1E5552C4009077FB /* SLStore.h */,
+				1BEE2D1C1E5552C4009077FB /* SLStore.m */,
+				1BEE2CD21E5550AC009077FB /* Assets.xcassets */,
+				1BEE2CD41E5550AC009077FB /* LaunchScreen.storyboard */,
+				1BEE2CD71E5550AC009077FB /* Info.plist */,
+				1BEE2CC61E5550AC009077FB /* Supporting Files */,
+			);
+			path = SLAddressSelector;
+			sourceTree = "<group>";
+		};
+		1BEE2CC61E5550AC009077FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE2CC71E5550AC009077FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BEE2CDF1E5550AC009077FB /* SLAddressSelectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE2CE01E5550AC009077FB /* SLAddressSelectorTests.m */,
+				1BEE2CE21E5550AC009077FB /* Info.plist */,
+			);
+			path = SLAddressSelectorTests;
+			sourceTree = "<group>";
+		};
+		1BEE2CEA1E5550AC009077FB /* SLAddressSelectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE2CEB1E5550AC009077FB /* SLAddressSelectorUITests.m */,
+				1BEE2CED1E5550AC009077FB /* Info.plist */,
+			);
+			path = SLAddressSelectorUITests;
+			sourceTree = "<group>";
+		};
+		1BEE2CFF1E55527F009077FB /* SLAdress */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE2D421E555446009077FB /* Model */,
+				1BEE2D001E55527F009077FB /* Tool */,
+				1BEE2D031E55527F009077FB /* View */,
+				1BEE2D0E1E55527F009077FB /* ViewController */,
+			);
+			path = SLAdress;
+			sourceTree = "<group>";
+		};
+		1BEE2D001E55527F009077FB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE2D011E55527F009077FB /* CustomModelTansition.h */,
+				1BEE2D021E55527F009077FB /* CustomModelTansition.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1BEE2D031E55527F009077FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE2D041E55527F009077FB /* SLAddressCollectionViewCell.h */,
+				1BEE2D051E55527F009077FB /* SLAddressCollectionViewCell.m */,
+				1BEE2D061E55527F009077FB /* SLAddressCollectionViewCell.xib */,
+				1BEE2D071E55527F009077FB /* SLAddressTableViewCell.h */,
+				1BEE2D081E55527F009077FB /* SLAddressTableViewCell.m */,
+				1BEE2D091E55527F009077FB /* SLAddressTableViewCell.xib */,
+				1BEE2D0A1E55527F009077FB /* SLSliderBar.h */,
+				1BEE2D0B1E55527F009077FB /* SLSliderBar.m */,
+				1BEE2D0C1E55527F009077FB /* SLSliderItem.h */,
+				1BEE2D0D1E55527F009077FB /* SLSliderItem.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BEE2D0E1E55527F009077FB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE2D0F1E55527F009077FB /* SLSelectAddressViewController.h */,
+				1BEE2D101E55527F009077FB /* SLSelectAddressViewController.m */,
+				1BEE2D111E55527F009077FB /* SLSelectAddressViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1BEE2D1E1E5553C5009077FB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE2D471E55566F009077FB /* Category */,
+				1BEE2D1F1E5553C5009077FB /* MJExtension */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1BEE2D1F1E5553C5009077FB /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE2D201E5553C5009077FB /* MJDictionaryCache.h */,
+				1BEE2D211E5553C5009077FB /* MJDictionaryCache.m */,
+				1BEE2D221E5553C5009077FB /* MJExtension.h */,
+				1BEE2D231E5553C5009077FB /* MJExtensionConst.h */,
+				1BEE2D241E5553C5009077FB /* MJExtensionConst.m */,
+				1BEE2D251E5553C5009077FB /* MJFoundation.h */,
+				1BEE2D261E5553C5009077FB /* MJFoundation.m */,
+				1BEE2D271E5553C5009077FB /* MJProperty.h */,
+				1BEE2D281E5553C5009077FB /* MJProperty.m */,
+				1BEE2D291E5553C5009077FB /* MJPropertyKey.h */,
+				1BEE2D2A1E5553C5009077FB /* MJPropertyKey.m */,
+				1BEE2D2B1E5553C5009077FB /* MJPropertyType.h */,
+				1BEE2D2C1E5553C5009077FB /* MJPropertyType.m */,
+				1BEE2D2D1E5553C5009077FB /* NSObject+MJClass.h */,
+				1BEE2D2E1E5553C5009077FB /* NSObject+MJClass.m */,
+				1BEE2D2F1E5553C5009077FB /* NSObject+MJCoding.h */,
+				1BEE2D301E5553C5009077FB /* NSObject+MJCoding.m */,
+				1BEE2D311E5553C5009077FB /* NSObject+MJKeyValue.h */,
+				1BEE2D321E5553C5009077FB /* NSObject+MJKeyValue.m */,
+				1BEE2D331E5553C5009077FB /* NSObject+MJProperty.h */,
+				1BEE2D341E5553C6009077FB /* NSObject+MJProperty.m */,
+				1BEE2D351E5553C6009077FB /* NSString+MJExtension.h */,
+				1BEE2D361E5553C6009077FB /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		1BEE2D421E555446009077FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE2D4B1E556FD2009077FB /* area.txt */,
+				1BEE2D431E555456009077FB /* SLCityModel.h */,
+				1BEE2D441E555456009077FB /* SLCityModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BEE2D471E55566F009077FB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE2D481E555679009077FB /* NSString+Helper.h */,
+				1BEE2D491E555679009077FB /* NSString+Helper.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BEE2CC21E5550AC009077FB /* SLAddressSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEE2CF01E5550AC009077FB /* Build configuration list for PBXNativeTarget "SLAddressSelector" */;
+			buildPhases = (
+				1BEE2CBF1E5550AC009077FB /* Sources */,
+				1BEE2CC01E5550AC009077FB /* Frameworks */,
+				1BEE2CC11E5550AC009077FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLAddressSelector;
+			productName = SLAddressSelector;
+			productReference = 1BEE2CC31E5550AC009077FB /* SLAddressSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BEE2CDB1E5550AC009077FB /* SLAddressSelectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEE2CF31E5550AC009077FB /* Build configuration list for PBXNativeTarget "SLAddressSelectorTests" */;
+			buildPhases = (
+				1BEE2CD81E5550AC009077FB /* Sources */,
+				1BEE2CD91E5550AC009077FB /* Frameworks */,
+				1BEE2CDA1E5550AC009077FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BEE2CDE1E5550AC009077FB /* PBXTargetDependency */,
+			);
+			name = SLAddressSelectorTests;
+			productName = SLAddressSelectorTests;
+			productReference = 1BEE2CDC1E5550AC009077FB /* SLAddressSelectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BEE2CE61E5550AC009077FB /* SLAddressSelectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEE2CF61E5550AC009077FB /* Build configuration list for PBXNativeTarget "SLAddressSelectorUITests" */;
+			buildPhases = (
+				1BEE2CE31E5550AC009077FB /* Sources */,
+				1BEE2CE41E5550AC009077FB /* Frameworks */,
+				1BEE2CE51E5550AC009077FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BEE2CE91E5550AC009077FB /* PBXTargetDependency */,
+			);
+			name = SLAddressSelectorUITests;
+			productName = SLAddressSelectorUITests;
+			productReference = 1BEE2CE71E5550AC009077FB /* SLAddressSelectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BEE2CBB1E5550AC009077FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SL;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Jack_Code;
+				TargetAttributes = {
+					1BEE2CC21E5550AC009077FB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M85J4QDDF2;
+						ProvisioningStyle = Automatic;
+					};
+					1BEE2CDB1E5550AC009077FB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M85J4QDDF2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1BEE2CC21E5550AC009077FB;
+					};
+					1BEE2CE61E5550AC009077FB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M85J4QDDF2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1BEE2CC21E5550AC009077FB;
+					};
+				};
+			};
+			buildConfigurationList = 1BEE2CBE1E5550AC009077FB /* Build configuration list for PBXProject "SLAddressSelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BEE2CBA1E5550AC009077FB;
+			productRefGroup = 1BEE2CC41E5550AC009077FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BEE2CC21E5550AC009077FB /* SLAddressSelector */,
+				1BEE2CDB1E5550AC009077FB /* SLAddressSelectorTests */,
+				1BEE2CE61E5550AC009077FB /* SLAddressSelectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BEE2CC11E5550AC009077FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEE2D141E55527F009077FB /* SLAddressCollectionViewCell.xib in Resources */,
+				1BEE2D161E55527F009077FB /* SLAddressTableViewCell.xib in Resources */,
+				1BEE2D1A1E55527F009077FB /* SLSelectAddressViewController.xib in Resources */,
+				1BEE2D4C1E556FD2009077FB /* area.txt in Resources */,
+				1BEE2CFE1E55515B009077FB /* SLMainViewController.xib in Resources */,
+				1BEE2CD61E5550AC009077FB /* LaunchScreen.storyboard in Resources */,
+				1BEE2CD31E5550AC009077FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEE2CDA1E5550AC009077FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEE2CE51E5550AC009077FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BEE2CBF1E5550AC009077FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEE2D371E5553C6009077FB /* MJDictionaryCache.m in Sources */,
+				1BEE2D3F1E5553C6009077FB /* NSObject+MJKeyValue.m in Sources */,
+				1BEE2CCB1E5550AC009077FB /* AppDelegate.m in Sources */,
+				1BEE2D191E55527F009077FB /* SLSelectAddressViewController.m in Sources */,
+				1BEE2CC81E5550AC009077FB /* main.m in Sources */,
+				1BEE2D381E5553C6009077FB /* MJExtensionConst.m in Sources */,
+				1BEE2D181E55527F009077FB /* SLSliderItem.m in Sources */,
+				1BEE2D401E5553C6009077FB /* NSObject+MJProperty.m in Sources */,
+				1BEE2D3D1E5553C6009077FB /* NSObject+MJClass.m in Sources */,
+				1BEE2D1D1E5552C4009077FB /* SLStore.m in Sources */,
+				1BEE2D3B1E5553C6009077FB /* MJPropertyKey.m in Sources */,
+				1BEE2D391E5553C6009077FB /* MJFoundation.m in Sources */,
+				1BEE2D3C1E5553C6009077FB /* MJPropertyType.m in Sources */,
+				1BEE2D451E555456009077FB /* SLCityModel.m in Sources */,
+				1BEE2D4A1E555679009077FB /* NSString+Helper.m in Sources */,
+				1BEE2D131E55527F009077FB /* SLAddressCollectionViewCell.m in Sources */,
+				1BEE2D3A1E5553C6009077FB /* MJProperty.m in Sources */,
+				1BEE2D171E55527F009077FB /* SLSliderBar.m in Sources */,
+				1BEE2D3E1E5553C6009077FB /* NSObject+MJCoding.m in Sources */,
+				1BEE2D411E5553C6009077FB /* NSString+MJExtension.m in Sources */,
+				1BEE2D151E55527F009077FB /* SLAddressTableViewCell.m in Sources */,
+				1BEE2D121E55527F009077FB /* CustomModelTansition.m in Sources */,
+				1BEE2CFD1E55515B009077FB /* SLMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEE2CD81E5550AC009077FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEE2CE11E5550AC009077FB /* SLAddressSelectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEE2CE31E5550AC009077FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEE2CEC1E5550AC009077FB /* SLAddressSelectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BEE2CDE1E5550AC009077FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BEE2CC21E5550AC009077FB /* SLAddressSelector */;
+			targetProxy = 1BEE2CDD1E5550AC009077FB /* PBXContainerItemProxy */;
+		};
+		1BEE2CE91E5550AC009077FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BEE2CC21E5550AC009077FB /* SLAddressSelector */;
+			targetProxy = 1BEE2CE81E5550AC009077FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BEE2CD41E5550AC009077FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEE2CD51E5550AC009077FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BEE2CEE1E5550AC009077FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BEE2CEF1E5550AC009077FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BEE2CF11E5550AC009077FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M85J4QDDF2;
+				GCC_PREFIX_HEADER = "${SRCROOT}/SLAddressSelector/SLHeader.pch";
+				INFOPLIST_FILE = SLAddressSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SL.SLAddressSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BEE2CF21E5550AC009077FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M85J4QDDF2;
+				GCC_PREFIX_HEADER = "${SRCROOT}/SLAddressSelector/SLHeader.pch";
+				INFOPLIST_FILE = SLAddressSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SL.SLAddressSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1BEE2CF41E5550AC009077FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M85J4QDDF2;
+				INFOPLIST_FILE = SLAddressSelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SL.SLAddressSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLAddressSelector.app/SLAddressSelector";
+			};
+			name = Debug;
+		};
+		1BEE2CF51E5550AC009077FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M85J4QDDF2;
+				INFOPLIST_FILE = SLAddressSelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SL.SLAddressSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLAddressSelector.app/SLAddressSelector";
+			};
+			name = Release;
+		};
+		1BEE2CF71E5550AC009077FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M85J4QDDF2;
+				INFOPLIST_FILE = SLAddressSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SL.SLAddressSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLAddressSelector;
+			};
+			name = Debug;
+		};
+		1BEE2CF81E5550AC009077FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M85J4QDDF2;
+				INFOPLIST_FILE = SLAddressSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SL.SLAddressSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLAddressSelector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BEE2CBE1E5550AC009077FB /* Build configuration list for PBXProject "SLAddressSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEE2CEE1E5550AC009077FB /* Debug */,
+				1BEE2CEF1E5550AC009077FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEE2CF01E5550AC009077FB /* Build configuration list for PBXNativeTarget "SLAddressSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEE2CF11E5550AC009077FB /* Debug */,
+				1BEE2CF21E5550AC009077FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEE2CF31E5550AC009077FB /* Build configuration list for PBXNativeTarget "SLAddressSelectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEE2CF41E5550AC009077FB /* Debug */,
+				1BEE2CF51E5550AC009077FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEE2CF61E5550AC009077FB /* Build configuration list for PBXNativeTarget "SLAddressSelectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEE2CF71E5550AC009077FB /* Debug */,
+				1BEE2CF81E5550AC009077FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BEE2CBB1E5550AC009077FB /* Project object */;
+}
